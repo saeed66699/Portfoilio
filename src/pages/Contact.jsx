@@ -12,13 +12,13 @@ const Contact = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-stretch">
-        <div className="border border-(--accent-color) bg-[#121724] rounded-xl flex justify-center items-center overflow-hidden">
+        {/* <div className="border border-(--accent-color) bg-[#121724] rounded-xl flex justify-center items-center overflow-hidden">
           <img
             src={image}
             alt="Profile"
             className="w-full h-full object-cover rounded-xl"
           />
-        </div>
+        </div> */}
 
         <div className="border border-(--accent-color) bg-[#121724] p-8 rounded-xl flex flex-col justify-center">
           <h2 className="text-2xl font-bold text-(--accent-color) mb-6">
